@@ -1,0 +1,21 @@
+We know what a network is? (A network is a group of two or more connected devices (such as computers, smartphones, or servers) that can communicate and share resources with each other.) and also the types of networks.(wan & Lan). For a network to function we need Physical Components and logical components. These include Routers, Servers and Cables and Hardware which a part of the physical components.
+
+Router: They are specialized devices that connect different networks and route data packets between them. For example, if you send an email or visit a website, the information is broken into small packets. (Why is broken into packets? This makes network traffic more efficient in terms of balancing the load across various pieces of equipment.). The main function of a router is to analyse each packet and determine the most efficient path it should take to reach its destination.
+
+Servers: They are powerful computers designed to provide services, resources, or data to other computers—called clients—over a network. 
+On the other side there are logical components like the IP address, TCP/IP protocols algorithms used for routing.
+
+IP(Internet protocol) is responsible for addressing and routing data so that they can travel long distances.
+
+Transmission Control Protocol (TCP) is a connection-oriented protocol for communications that helps in the exchange of messages between different devices over a network. It is one of the main protocols of the TCP/IP suite.
+
+You can imagine that 
+•	IP is like the postal service—it gets the pieces of your letter (packets) to the right address.
+•	TCP makes sure all the pages arrive safely and in the right order.
+
+Common TCP/IP Protocols
+•	HTTP/HTTPS – web browsing
+•	FTP/SFTP – file transfers
+•	SMTP/IMAP – email
+•	DNS – domain name resolution
+
