@@ -23,7 +23,6 @@ Physical Addressing: The Data link layer adds physical addresses (MAC addresses)
 Error Control: The data link layer provides the mechanism of error control.
 Flow Control: flow control coordinates the amount of data that can be sent before receiving an acknowledgment so that it prevents data corruptions.
 
-
 Layer 3 – Network layer 
 It works for the transmission of data from one host to the other located in different networks. In other words, it responsible for routing the data between different networks. It works by assigning IP address to each device and the best path data transmission. 
 Function of the network layer
@@ -32,9 +31,12 @@ Logical Addressing: To identify each device inter-network uniquely, the network 
 
 Layer 4 – Transport layer
 It ensure the reliable data transfer using protocols like TCP and UDP. It is responsible for the end-to-end delivery of the complete message.
+
 Layer 5 – Session Layer
 It is responsible for the establishment of connections, management of connections, terminations of sessions between two devices. It keeps communication open and synchronized.
+
 Layer 6 – presentation Layer
 It translates data between the applications and the network. It also handles encryption/Decryption, compression.
-Layer 6 – presentation Layer
+
+Layer 7 – Application Layer
 The top most layer. This layer serves as a window for the application services to access the network and for displaying the received information to the user. The protocols used in application layer are SMTP, FTP and DNS
