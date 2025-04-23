@@ -1,0 +1,40 @@
+The OSI Model 
+Open Systems Interconnection (OSI) Model is a framework that describes how data travels through a network—from one device to another—there are seven distinct layers in OSI. It was developed by the International Organization for Standardization (ISO) to help different systems communicate with each other, regardless of their underlying technologies.
+
+There are 7 layers in the OSI Model and each layer has its specific role in handling data. All the layers are mentioned below:
+•	Physical Layer
+•	Data Link layer
+•	Network layer
+•	Transport Layer
+•	Presentation layer
+•	Application Layer
+Layer 1 – Physical Layer 
+It is the lowest in the OSI Model. This layer is responsible for the actual physical connection between the devices through cables, switches Hub etc. Under the physical layer, it contains different types of Topologies like Bus topology, star topology mesh topology etc to connect multiples systems together. 
+Functions of the Physical layer
+•	Bit Synchronization: The physical layer provides the synchronization of the bits by providing a clock.
+•	Bit Rate Control: The Physical layer also defines the transmission rate.	
+•	Transmission Mode: Physical layer also defines how the data flows between the two connected devices.
+
+Layer 2 – Data link layer
+It is responsible for node-to-node delivery of the message or in simple it transfer data between devices on the same network. When a packet arrives in a network, it is the responsibility of the Data Link Layer to transmit it to the Host using the MAC address. This layer is divided into 2 sublayers:- logical link control and Media access control.
+Functions of the Data link layer
+Framing: It provides a way for a sender to transmit a set of bits that are meaningful to the receiver.
+Physical Addressing: The Data link layer adds physical addresses (MAC addresses) of the sender and/or receiver in the header of each frame.
+Error Control: The data link layer provides the mechanism of error control.
+Flow Control: flow control coordinates the amount of data that can be sent before receiving an acknowledgment so that it prevents data corruptions.
+
+
+Layer 3 – Network layer 
+It works for the transmission of data from one host to the other located in different networks. In other words, it responsible for routing the data between different networks. It works by assigning IP address to each device and the best path data transmission. 
+Function of the network layer
+Routing: The network layer protocols determine which route is suitable from source to destination.
+Logical Addressing: To identify each device inter-network uniquely, the network layer defines an addressing scheme.
+
+Layer 4 – Transport layer
+It ensure the reliable data transfer using protocols like TCP and UDP. It is responsible for the end-to-end delivery of the complete message.
+Layer 5 – Session Layer
+It is responsible for the establishment of connections, management of connections, terminations of sessions between two devices. It keeps communication open and synchronized.
+Layer 6 – presentation Layer
+It translates data between the applications and the network. It also handles encryption/Decryption, compression.
+Layer 6 – presentation Layer
+The top most layer. This layer serves as a window for the application services to access the network and for displaying the received information to the user. The protocols used in application layer are SMTP, FTP and DNS
