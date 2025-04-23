@@ -1,0 +1,41 @@
+Linux is an open-source, Unix-like operating system that forms the backbone of many other systems. It’s used all over the place—from servers and embedded devices to desktops and smartphones. In fact Android is custom version of the Linux.
+why use Linux
+1. Free and Open Source
+2. Stable and Secure 
+3. Powerful for Automation
+4. versatile
+
+Linux distributions
+1. Ubuntu 
+2. Debian 
+3. Fedora
+4. Arch Linux 
+5. Kali Linux 
+
+Basic Linux Commands
+1. ls
+   Lists files and directories.
+
+2. cd
+   Changes the current directory.
+
+3. pwd
+   Displays the current path.
+
+4. cp
+   Copies files or folders.
+
+5. mkdir
+   Creates a new directory.
+
+6. rm
+   Deletes files or directories.
+
+7. mv
+   Moves or renames files.
+
+8. chmod
+   Changes file permissions.
+
+9. exit
+   Closes the terminal session.
