@@ -1,0 +1,48 @@
+First steps with git: Add, commit and push
+these are a series of commands needed Add, commit or push in command line using git bash. There are 2 types of commands:-
+
+Bash commands: These are commands that are native to bash / shell. They used to navigate around your computer, explore directory structures, create and manipulate files and directories, and more. 
+example ls, cd, mkdir, etc
+
+Git commands: These are commands that are specific to git and will only be available if git is installed on the computer. Git specific commands will always started with a call to git.
+example git status, git clone, etc
+
+To do the above functions you need to first create a repository
+
+git init "name of the new repository"
+cd "name of the new repository"
+hub create
+
+what these command do ?
+1. Create a new local Git repo.
+2. Move you into the project directory.
+3. Create and connect it to a GitHub repo with one command using hub
+
+Changes in the repository
+1. Edit a file in your repo locally
+example 
+Open up a text editor and make a few edits to the README.md file. Save the changes.
+then type git status and execute the command.
+
+The output from git status indicates the modifications made in the file README.md. To keep track of this change to this file, add the change then commit the change.
+
+git add: It is a command used in Git to stage change. Basically it adds files or changes to the staging area or the index.
+
+git commit: It is the command used to save a snapshot of project in Git. It takes everything from the staging area (git add), Wraps it in a commit and Stores it as a point in your project history.
+adding an individual file or groups of files to git tracking. 
+
+git add file-name-here-with-extension
+
+To add the README.md file that is modified would be:-
+git add README.md
+
+To add ALL of the files that have been edited at the same time:-
+git add --all
+
+Once all the changes are added,they are ready to make a snapshot of the current state of repository by using:-
+git commit
+
+Push changes to GitHub
+To add the changes to git repo files from the local system to the repository in GitHub, you use:-
+git push
+You will then be prompted for your GitHub user name and password, then it will be visible in GitHub.
