@@ -1,0 +1,59 @@
+how does the ADS-B work?
+
+ADS-B is a acronym for Automatic Dependent Surveillance-Broadcast. The itself describe what it does?
+Automatic:
+The system transmits data automatically, without any need for pilot input.
+Dependent:
+The data is dependent on the aircraft's navigation system, such as GPS, for accurate positioning.
+Surveillance:
+The system provides surveillance information, including position, altitude, and velocity, to other aircraft and ground facilities.
+Broadcast:
+The information is continuously broadcast to anyone with the appropriate receiving equipment. 
+This systems more precise and efficient method for tracking aircrafts.
+
+Other used for tracking aircraft are the following:-
+	Multilateration (MLAT)
+	Radar
+
+Multilateration (MLAT) is widely used in aircraft tracking as a passive surveillance technique to determine an aircraft’s position by analyzing the Time Difference of Arrival (TDOA) of signals transmitted by the aircraft and received at multiple ground stations.
+how it works?
+The aircraft sends out a signal.
+
+Several ground receivers pick up the signal.
+
+Each receiver records the precise time the signal was received.
+
+The system calculates the differences in arrival times between pairs of receivers.
+
+Each pair of time differences defines a hyperboloid of possible aircraft locations.
+
+Since radio waves travel at the speed of light, even tiny time differences correspond to meaningful distance differences.
+
+With at least four receivers, the aircraft’s position can be estimated in 3D by finding the point where these hyperboloids intersect.
+
+Radar (short for Radio Detection and Ranging) is one of the oldest and most reliable technologies for aircraft tracking. It works by sending out radio waves and analyzing the reflected signals to determine the position and movement of aircraft.
+
+how it works?
+A radar station emits a pulse of radio waves in a specific direction.
+
+These waves bounce off objects in the sky.
+
+The radar system listens for the echo — the reflected radio waves and by measuring how long it takes for the echo to return, the radar calculates the distance to the aircraft.
+
+How ADS-B Works:
+Position Determination: The aircraft uses GPS to determine its exact position (latitude, longitude, altitude), along with velocity and heading.
+
+Broadcasting Data: The aircraft transmits this data via a radio signal about twice per second. This is usually done on 1090 MHz (worldwide) or 978 MHz (in the U.S.).
+
+Reception by Ground and Air: Air Traffic Control (ATC) ground stations receive these signals for monitoring. Other aircraft with ADS-B In equipment can also receive this data.
+
+Benefits of ADS-B:
+Real-time tracking without relying on radar.
+
+Better coverage in remote or oceanic areas by using satellites.
+
+More accurate and frequent updates than radar (updates every 0.5 seconds).
+
+Increased safety from air-to-air awareness.
+
+Lower cost than radar or MLAT.
