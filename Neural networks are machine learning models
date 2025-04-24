@@ -1,0 +1,17 @@
+Neural networks are machine learning models that mimics the complex function that a brains does. It is similar to how neutrons function in our body hence it is called neural networks. In this models consist interconnect nodes. This nodes can be adjusted to give certain results.
+Just how our brains functions these networks are built from several key components:
+Neurons: 
+The basic units that receive inputs, each neuron is governed by a threshold and an activation function.
+Connections: 
+Links between neurons that carry information, regulated by weights and biases.
+Weights and Biases: 
+These parameters determine the strength and influence of connections.
+Propagation Functions: 
+Mechanisms that help process and transfer data across layers of neurons.
+Learning Rule: 
+The method that adjusts weights and biases over time to improve accuracy.
+
+The neural network follows a three stage process:
+Input Computation: Data is fed into the network.
+Output Generation: Based on the current parameters, the network generates an output.
+Iterative Refinement: The network refines its output by adjusting weights and biases, gradually improving its performance on diverse tasks.
