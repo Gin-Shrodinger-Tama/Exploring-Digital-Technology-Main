@@ -1,0 +1,46 @@
+Binary numbers are essential to communicate with computer, as computers rely on these digits to function and offer a simple and easy way for computer to work.
+Let’s break down the process of converting a positive decimal number to binary.
+
+Decimal Number to Binary:
+i)   Divide the number by 2.
+ii)  Record the remainder.
+iii) Repeat the process with the quotient until it becomes 0.
+iv)  Write the remainders in reverse order to get the binary representation.
+
+Example: Convert 44 to Binary
+44 ÷ 2 = 22, remainder 0
+22 ÷ 2 = 11, remainder 0
+11 ÷ 2 = 5, remainder 1
+5 ÷ 2 = 2, remainder 1
+2 ÷ 2 = 1, remainder 0
+1 ÷ 2 = 0, remainder 1
+
+Therefore, the binary representation of 45 is 101100.
+
+Verification of the Decimal to Binary Conversion:
+
+i)   (1 × 2⁵) = 32
+ii)  (0 × 2⁴) = 0
+iii) (1 × 2³) = 8
+iv)  (1 × 2²) = 4
+v)   (0 × 2¹) = 0
+vi)  (0 × 2⁰) = 1
+
+Adding up: 32 + 0 + 8 + 4 + 0 + 0 = 44
+Thus, 101100 in binary equals 44 in decimal.
+
+Two’s Complement (8-bit): Negative values in binary are represented using two’s complement, which simplifies arithmetic operations.
+
+Steps to Find 2’s Complement:
+
+i)   Write the positive binary equivalent (using a fixed bit-length, e.g., 8 bits).
+ii)  Invert all bits (0s to 1s and 1s to 0s).
+iii) Add 1 to the inverted binary number.
+
+Example: Convert -45 to Two’s Complement (8-bit)
+
+Step 1: 44 in binary (8-bit): 00101100
+Step 2: Invert the bits: 11010011
+Step 3: Add 1: 11010011
+
+Therefore, -45 in two’s complement (8-bit) is 11010100.
